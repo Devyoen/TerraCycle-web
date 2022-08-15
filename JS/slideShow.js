@@ -11,7 +11,7 @@ const slideMargin = 100; //슬라이드간의 margin 값
 slides.style.width = (slideWidth + slideMargin) * slideCount + 'px';
 
 function moveSlide(num) {
-  slides.style.left = -num * 1380 + 'px';
+  slides.style.left = -num * (slideWidth + slideMargin) + 'px';
   currentIdx = num;
 }
 
