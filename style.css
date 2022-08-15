@@ -1,0 +1,19 @@
+#main-img{
+    width: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+img {
+    display: block;
+}
+.icon {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
